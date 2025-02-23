@@ -1,18 +1,18 @@
-CRUD Database Application
+#CRUD Database Application
 
-This is a simple CRUD (Create, Read, Update, Delete) application built using Next.js and React. The application interacts with a backend API to perform database operations for managing posts.
+##This is a simple CRUD (Create, Read, Update, Delete) application built using Next.js and React. The application interacts with a backend API to perform database operations for managing posts.
 
-Features
+###Features
 
-Create new posts with a title and body.
+1.Create new posts with a title and body.
 
-Read and display all posts from the backend.
+2.Read and display all posts from the backend.
 
-Update existing posts.
+3.Update existing posts.
 
-Delete posts.
+4.Delete posts.
 
-Loading state handling while fetching data.
+###Loading state handling while fetching data.
 
 Technologies Used
 

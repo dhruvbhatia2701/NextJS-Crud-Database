@@ -28,7 +28,7 @@ Installing devDependencies:
 - postcss
 - tailwindcss 
 
-4. to install DaisyUI  run command:
+4. to install DaisyUI  run command in the directory:
    npm i -D daisyui@latest
 
 

@@ -29,7 +29,7 @@ Installing devDependencies:
 - tailwindcss 
 
 4. to install DaisyUI  run command:
-   [npm i -D daisyui@latest]
+   npm i -D daisyui@latest
 
 
 

@@ -134,11 +134,13 @@ const deletePost = async (id) => {
 - **Loading Indicator**: Shows when fetching data.
 
 ## Backend Remote server
-- **Download dependency**:  ```sh
+- **Download dependency**:
+  ```sh
    npm install -g json-server
    ```
 - **Json file creation**: create a file db.json file which contains the dummy data for the database
-- **Run the server as a background process**: ```sh
+- **Run the server as a background process**:
+ ```sh
   npx json-server --watch db.json --port 5000 &
   ```
 

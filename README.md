@@ -133,19 +133,21 @@ const deletePost = async (id) => {
 - **Post List**: Displays all posts with options to edit and delete.
 - **Loading Indicator**: Shows when fetching data.
 
-## Contributing
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature-branch`)
-3. **Commit changes** (`git commit -m 'Add new feature'`)
-4. **Push to branch** (`git push origin feature-branch`)
-5. **Create a pull request**
+## Backend Remote server
+- **Download dependency**:  ```sh
+   npm install -g json-server
+   ```
+- **Json file creation**: create a file db.json file which contains the dummy data for the database
+- **Run the server as a background process**: ```sh
+  npx json-server --watch db.json --port 5000 &
+  ```
 
-## License
-This project is licensed under the MIT License.
+
+
 
 ---
-**Author:** Your Name  
-**GitHub:** [Your GitHub Profile](https://github.com/your-username)
+**Author:** Dhruv Bhatia  
+**GitHub:** [Your GitHub Profile](https://github.com/dhruvbhatia2701)
 
  
 

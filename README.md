@@ -158,7 +158,7 @@ server.listen(5000, () => {
 
 - **Run the server as a background process**:
  ```sh
-  npx json-server --watch db.json --port 5000 &
+  npx json-server --watch db.json --port 5000 
   ```
 
 

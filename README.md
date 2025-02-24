@@ -138,7 +138,7 @@ const deletePost = async (id) => {
   ```sh
    npm install -g json-server
    ```
-- **Json file creation**: create a file db.json file which contains the dummy data for the database
+- **Json file creation**: create a file ```db.json``` file which contains the dummy data for the database
 - **Run the server as a background process**:
  ```sh
   npx json-server --watch db.json --port 5000 &

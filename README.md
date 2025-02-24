@@ -139,17 +139,32 @@ const deletePost = async (id) => {
    npm install -g json-server
    ```
 - **Json file creation**: create a file ```db.json``` file which contains the dummy data for the database
+- **Create the server.js file**: create a file ```server.js``` and add the following content
+```js
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
+
+server.use(middlewares);
+server.use(router);
+server.listen(5000, () => {
+  console.log('JSON Server is running');
+});
+```
+
+
+
+
 - **Run the server as a background process**:
  ```sh
   npx json-server --watch db.json --port 5000 &
   ```
 
 
-
-
 ---
 **Author:** Dhruv Bhatia  
-**GitHub:** [Your GitHub Profile](https://github.com/dhruvbhatia2701)
+**GitHub:** [My GitHub ](https://github.com/dhruvbhatia2701)
 
  
 
